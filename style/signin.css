@@ -1,0 +1,26 @@
+body {
+  padding-top: 20px;
+}
+
+.image-div {
+  margin-bottom: 5%;
+}
+
+.image-div img {
+  height: 50px;
+}
+
+.form-signin {
+  max-width: 390px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox, input {
+  margin-bottom: 20px;
+}
+
+.login-button {
+  margin: 0 40%;
+}

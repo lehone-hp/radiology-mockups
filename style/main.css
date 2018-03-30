@@ -1,0 +1,80 @@
+body {
+	color: #404040;
+}
+
+.btn {
+	border-radius: 0px;
+	border-color: transparent;	
+}
+
+.btn:hover {
+	border-color: transparent;
+	opacity: 0.9;
+}
+
+.btn-primary {
+	background-color: #f78c44;
+	color: #ffffff;
+}
+
+.btn-primary:hover {
+	background-color: #f78c44;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover{
+	color:#fff;
+	background-color: #f78c44;
+	border-color:transparent;
+}
+
+.primary-orange {
+	background-color: #f78c44;
+	color: #ffffff;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid #f78c44;
+	border-radius: 0px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-control:focus{
+	border-bottom: 1px solid #f78c44;
+	box-shadow: none;
+}
+
+/* unvisited link */
+a:link {
+	color: #f78c44;
+}
+
+/* mouse over link */
+a:hover, a:visited, a:active {
+	color: #f78c44;
+	opacity: 0.9;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 40px;
+	background-color: #f5f5f5;
+	padding: 10px 0px;
+}
+
+.footer p {
+	float:right;
+}
